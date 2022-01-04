@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>Library</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <div class="header">
+    <div class="header-title">My Library</div>
+    <button class="new-book-button">New Book</button>
+  </div>
+  <div class="book-container">
+    <div class="book-list"></div>
+  </div>
+  <div class="form-container">
+    <form class="new-book">
+      <h1>
+        <div class="form-title">Book Information</div>
+        <div class="button-container">
+          <button class="button-form" id="add-book-button" type="submit">Add Book</button>    
+          <button class="button-form" id="cancel-book-button" type="button">Cancel</button>
+        </div>
+      </h1>
+      <div class="input">
+        <input id="title" type="text" name="book-title" placeholder="title" value="" required="">
+      </div>
+      <div class="input">
+        <input id="author" type="text" name="book-author" placeholder="author" value="" required="">
+      </div>
+      <div class="input">
+        <input id="pages" type="text" name="book-pages" placeholder="page count" value="">
+      </div>
+      <div class="input">
+        <input id="year" type="text" name="book-year" placeholder="year published" value="" required="">
+      </div>
+      <div class="input">
+        <textarea id="description"  name="book-description" placeholder="description"></textarea>
+      </div>
+      <div class="input">
+        <label for="read">Read: </label>
+        <input id="read-true" type="radio" name="read" value="true" checked="true">
+        Yes
+        <input id="read-false" type="radio" name="read" value="false" checked="false">
+        No
+      </div>
+      <div class="input">
+        <input id="cover" type="text" name="book-cover" placeholder="cover image url">
+      </div>
+      <div class="input">
+        
+      </div>
+    </form>
+  </div>
+
+  <script type="text/javascript" src="script.js"></script>
+
+</body>
